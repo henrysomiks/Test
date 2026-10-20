@@ -1,0 +1,108 @@
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 250px;
+    gap: 20px;
+}
+.first{
+   
+    grid-column: span 2;
+    text-align: center;
+    
+}
+
+h1{
+    text-align: left ;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    
+}
+img{
+    width: 200px;
+    height: 100px;
+    float: right;
+    flex-wrap: nowrap;
+}
+
+.cont1{
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    justify-content: center;
+    
+}
+.size{
+    background-color: grey;
+    gap: 30px;
+    padding: 5px;
+    text-align: center;
+    margin: 6px;
+    border-radius: 10px;
+}
+li{
+    list-style: none;
+    margin: 3px;
+    padding: 10px;
+    margin-right: 40px;
+    
+}
+button{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.price{
+    margin-top: 25px;
+    font-weight: 900;
+}
+.name{
+    font-weight: 900;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cont3{
+    display: block;
+    
+}
+
+h2{
+    text-align: center;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.foot{
+    margin-bottom: 90px;
+}
+@media(max-width:480px){
+    .cont{
+        display: block;
+        
+    }
+    .cont1{
+        display: block;
+        
+        
+    }
+    
+    .foot{
+        margin-top: 500px;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
